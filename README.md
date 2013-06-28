@@ -23,12 +23,11 @@ If necessary, re-run `bundle install`.
 Use the filter in `compile` rules as necessary. Examples:
 
     compile '/js/*' do
-            # Apply other filters.
-            # filter ...
+        # Apply other filters.
+        # filter ...
 
-            # Apply jslint filter.
-            filter :jslint
-        end
+        # Apply jslint filter.
+        filter :jslint
     end
 
 If JSLint has nothing to report, the filter produces no output.
